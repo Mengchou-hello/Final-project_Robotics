@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Cigarette_Butts', 'Disposable_Chopsticks', 'Peach_Pit', 'Toilet_Paper']
+
+roboflow:
+  workspace: capy-geyyf
+  project: hazardous-waste-follower-soymz
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capy-geyyf/hazardous-waste-follower-soymz/dataset/6
